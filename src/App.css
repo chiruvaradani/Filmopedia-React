@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Ubuntu&display=swap&family=Gasoek+One&display=swap');
+
+.line-limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Maximum number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+}
+
+.dropdown-item:hover{
+  background-color: orange !important;
+  color: #000 !important;
+
+}
+.navbar-nav .dropdown-menu {
+  position: static;
+  width: 100% !important;
+}
+
+nav-link {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+nav-link:focus,
+nav-link:hover {
+  color: #fff;
+}
+
+nav-link:focus:after,
+nav-link:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+nav-link:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+  /* font-family: "Montserrat Alternates" !important
+   */
+   font-family: 'Ubuntu' !important;
+   scroll-behavior: smooth;
+   
+}
+.line-limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Maximum number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.line-limit1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Maximum number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.crewImages:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+}
+
+div::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  opacity: 1;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: rgba(32, 32, 32, 0.5);
+  border-radius: 3px;
+}
+div::-webkit-scrollbar {
+  display: block;
+}
+
+
+
+div::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+ul::-webkit-scrollbar {
+  cursor: pointer;
+  width: 6px;
+  height: 6px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: rgba(242, 236, 236, 0.5);
+  opacity: 1;
+  border-radius: 3px;
+}
+
+
+
+ul::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.image-container{
+  animation: animationName 5s infinite;
+}
+
+.MovieDetails{
+  animation: movieDetails 2s ease;
+  
+}
+
+.logoImage{
+  filter:drop-shadow(10px 10px 10px black);
+}
+
+.MovieImage{
+  animation: movieImage 2s ease;
+
+}
+
+@keyframes movieDetails {
+  0%{
+    opacity: 0;
+    transform: translatey(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes movieImage {
+  0%{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes animationName {
+  0% {
+   transform: scale(0.9);
+  }
+  
+  50% {
+    transform: scale(1.1);
+    
+  }
+  100% {
+    transform: scale(0.9);
+    
+  }
+}
+
+.active{
+  /* border-bottom: 2px solid rgb(196, 151, 16); */
+}
+
+.HomeCard:hover{
+  /* transform: translateY(-10px); */
+  cursor: pointer;
+}
+
+.moviecontent{
+  opacity: 0;
+}
+
+.HomeCard:hover > .card-img-overlay{
+  opacity: 1;
+ }
+
+.HomeCard:hover >.card-img{
+  /* transform: translateY(-10px); */
+  filter: brightness(20%);
+  cursor: pointer;
+}
+
+.cardData{
+  opacity: 0;
+}
+
+
+
+
+
+.languages:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  width: 20px;
+}
+.carousel-control-next {
+  width: 20px;
+}
+
+.posterImage:hover{
+  transform: scale(1.1);
+}
+
+.seeMore:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.searchCard:hover{
+  /* box-shadow: 3px 3px 15px #fff; */
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.CircularProgressbar{
+  background: rgb(19, 3, 81);
+    border-radius: 50%;
+    padding: 2px;
+    font-weight: 600;
+} 
+
+/* .scroll-fixed-div {
+  position: none;
+} */
+
+.scroll-fixed-div.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.search-box {
+  position: relative;
+  border: none !important;
+}
+
+.search-box input[type="text"] {
+  padding-right: 30px; /* Adjust the padding to accommodate the search icon */
+}
+
+.search-box .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust the position of the icon */
+  transform: translateY(-50%);
+  /* cursor: none; */
+}
+
+/* .navbar {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+.navbar-visible {
+  transform: translateY(0%);
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+} */
+
+.navbarMain {
+  transition: backdrop-filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  backdrop-filter: blur(90px);
+  background-color:transparent !important;
+  /* transform: translateY(-100%); */
+}
+
+.navbar-visible {
+  transform: translateY(0%);
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  background-color: transparent;
+}
+
+.VideoCard:hover{
+  transform: scale(1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.VideoCard{
+  transform: scale(0.95);
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s ease;
+}
+.VideoCard:hover > .Videocontent{
+ opacity: 1;
+ transition: all 0.5s ease;
+}
+.VideoCard:hover > .VideoImage{
+  filter: brightness(30%);
+}
+
+.Videocontent{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+
+
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}

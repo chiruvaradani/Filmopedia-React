@@ -1,0 +1,83 @@
+.Nav_pages:hover{
+    background-color: orange !important;
+    cursor: pointer;
+}
+
+.Nav_pages:nth-child(1):hover{
+    background-color: rgb(15, 207, 255) !important;
+    cursor: pointer;
+}
+
+.seeMore{
+    cursor: pointer;
+}
+
+
+.Nav_pages:nth-child(2):hover{
+    background-color: rgb(255, 15, 15) !important;
+    cursor: pointer;
+}
+
+.Nav_pages.active {
+    
+    color: black !important;
+    background-color: orange !important;
+    
+    text-decoration: none;
+}
+
+.Nav_pages:nth-child(1).active {
+    
+    color: black;
+    background-color: rgb(15, 207, 255) !important;
+    
+    text-decoration: none;
+}
+
+.Nav_pages:nth-child(2).active {
+    
+    color: black;
+    background-color: rgb(255, 0, 0) !important;
+    text-decoration: none;
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+  }
+  
+  option:nth-child(1){
+    background-color: #000 !important;
+    color: #909090 !important;
+  }
+  
+  
+  option{
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+  
+  option:hover{
+    background-color:orange !important;
+    color: #fff !important;
+  }
+
+.Nav_pages_md.active {
+    
+    color: black !important;
+    border-bottom:2px solid orange !important;
+    text-decoration: none;
+}
+
+.Nav_pages_md:nth-child(1).active {
+    
+    color: black;
+    border-bottom:2px solid rgb(27, 59, 235) !important;
+    text-decoration: none;
+}
+
+.Nav_pages_md:nth-child(2).active {
+    
+    color: black;
+    border-bottom:2px solid rgb(255, 0, 0) !important;
+    text-decoration: none;
+}

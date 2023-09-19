@@ -1,0 +1,38 @@
+/* Offset for fixed navbar */
+body {
+    /* padding-top: 60px; */
+  }
+  
+  /* Scroll group with fixed position and overflow-y auto */
+  #simple-list-example {
+    position: fixed;
+    width: 300px;
+    background-color: aqua;
+    top: 100px; /* Adjust the top offset according to your needs */
+    height: (100vh ); /* Adjust the height to make space for the fixed navigation */
+    overflow-y: auto;
+    z-index: 100; /* Ensure the fixed navigation is on top of other elements */
+  }
+  
+  /* Fix the width of the Scrollspy content */
+  .scrollspy-example {
+    width: 100%;
+  }
+  .scrollspy-example [id] {
+    height:100vh !important;
+    padding-top: 10px; 
+  }
+    
+  .imageGallery{
+    filter: grayscale(60%);
+    z-index: 99;
+  }
+  
+  .imageGallery:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1;
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+  }
+  

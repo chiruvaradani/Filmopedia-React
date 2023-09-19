@@ -1,0 +1,95 @@
+/* Extra small devices (portrait phones) */
+@media screen and (max-width: 479px) {
+  /* CSS rules for screens up to 479px wide */
+  .card-img{
+      height: 254px !important;
+      width: 150px !important;
+    }
+    .carousel-inner{
+      height: 350px !important;
+  }
+  .lists {
+    width: 200px;
+  }
+  .textClass{
+    justify-content: center !important;
+    font-size: 10px !important;
+    text-align: center !important;
+  }
+
+  .font-size-reduced {
+    font-size: 70%;
+}
+
+  .filters{
+    position: absolute;
+  }
+  .languages{
+    height: 100px !important;  
+    
+  }
+  .languages >h4{
+    font-size: 10px !important;  
+    
+  }
+  .TopCard{
+    height: 180px !important
+  }
+  .topNumbers{
+    font-size: 40px !important;
+  }
+  .posterImage{
+    height: 130px !important;
+    width: 600px !important;
+    margin-top:0 !important
+  }
+  .corouselMovie{
+    font-size: 20px !important;
+    margin:0 ;
+    padding-top: 25px !important;
+    padding-bottom: 15px !important;
+  }
+  .carouseltext{
+    font-size: 8px !important;
+    margin-top: 0;
+
+  }
+  
+  .line-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Maximum number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+ 
+}
+
+/* Small devices (landscape phones) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /* CSS rules for screens between 480px and 767px wide */
+  .card-img{
+      /* height: 150px !important */
+
+  }
+  .textClass{
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 70% !important;
+  }
+}
+
+/* Medium devices (tablets) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for screens between 768px and 991px wide */
+}
+
+/* Large devices (desktops) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* CSS rules for screens between 992px and 1199px wide */
+}
+
+/* Extra large devices (large desktops) */
+@media screen and (min-width: 1200px) {
+  /* CSS rules for screens 1200px and wider */
+}

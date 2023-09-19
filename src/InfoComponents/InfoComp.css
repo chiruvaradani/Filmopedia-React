@@ -1,0 +1,23 @@
+@media screen and (max-width: 479px) {
+  .heading{
+    font-size: 30px !important;
+    line-height: 60px;
+  }
+}
+   .detailsPoints{
+    font-weight: lighter;
+    text-align: justify;
+}
+.DetailsContainer{
+
+    border: 1px solid rgb(125, 124, 124);
+}
+.DetailsContainer:hover{
+    transition: all 0.2s ease-in;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.responsiveScreens{
+    filter: brightness(0) saturate(100%) invert(71%) sepia(170%) saturate(7053%) hue-rotate(331deg) brightness(100%) contrast(117%)
+}

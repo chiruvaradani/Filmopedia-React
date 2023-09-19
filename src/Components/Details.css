@@ -1,0 +1,18 @@
+.react-multiple-carousel__arrow--left {
+    left: 0 !important;
+    border-radius: 10px !important;
+    height: 350px;
+    width: 50px;
+    z-index: -1;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 0 !important;
+    border-radius: 10px !important;
+    height: 350px;
+    width: 50px;
+    z-index: -1;
+  }
+.footer-links:hover{
+  color: gold;
+  cursor: pointer;
+}

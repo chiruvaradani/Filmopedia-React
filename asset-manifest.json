@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FilmopediaDB/static/css/main.d616dfb7.css",
+    "main.js": "/FilmopediaDB/static/js/main.7f11f5e0.js",
+    "static/css/685.9f8fc13e.chunk.css": "/FilmopediaDB/static/css/685.9f8fc13e.chunk.css",
+    "static/js/685.e3d12ea3.chunk.js": "/FilmopediaDB/static/js/685.e3d12ea3.chunk.js",
+    "static/css/571.9f8fc13e.chunk.css": "/FilmopediaDB/static/css/571.9f8fc13e.chunk.css",
+    "static/js/571.700ce01f.chunk.js": "/FilmopediaDB/static/js/571.700ce01f.chunk.js",
+    "static/js/787.5b40ddc6.chunk.js": "/FilmopediaDB/static/js/787.5b40ddc6.chunk.js",
+    "static/js/99.03c6c1bb.chunk.js": "/FilmopediaDB/static/js/99.03c6c1bb.chunk.js",
+    "static/media/revicons.eot": "/FilmopediaDB/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/FilmopediaDB/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/FilmopediaDB/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/FilmopediaDB/index.html",
+    "main.d616dfb7.css.map": "/FilmopediaDB/static/css/main.d616dfb7.css.map",
+    "main.7f11f5e0.js.map": "/FilmopediaDB/static/js/main.7f11f5e0.js.map",
+    "685.9f8fc13e.chunk.css.map": "/FilmopediaDB/static/css/685.9f8fc13e.chunk.css.map",
+    "685.e3d12ea3.chunk.js.map": "/FilmopediaDB/static/js/685.e3d12ea3.chunk.js.map",
+    "571.9f8fc13e.chunk.css.map": "/FilmopediaDB/static/css/571.9f8fc13e.chunk.css.map",
+    "571.700ce01f.chunk.js.map": "/FilmopediaDB/static/js/571.700ce01f.chunk.js.map",
+    "787.5b40ddc6.chunk.js.map": "/FilmopediaDB/static/js/787.5b40ddc6.chunk.js.map",
+    "99.03c6c1bb.chunk.js.map": "/FilmopediaDB/static/js/99.03c6c1bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d616dfb7.css",
+    "static/js/main.7f11f5e0.js"
+  ]
+}

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://chiruvaradani.github.io/FilmopediaDB",
   "private": true,
+  "proxy":"https://filmopedia-server.cyclic.app/server",
   "dependencies": {
     "@chakra-ui/react": "^2.8.0",
     "@chakra-ui/stepper": "^2.3.0",

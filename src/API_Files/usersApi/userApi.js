@@ -23,7 +23,7 @@ export const LoginAuth=async(state)=>{
         headers:{
           Accept: 'application/json',
           'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': 'https://chiruvaradani.github.io/Filmopedia/'
+          'Access-Control-Allow-Origin': '*'
         }
     })
     // console.log(data.data);

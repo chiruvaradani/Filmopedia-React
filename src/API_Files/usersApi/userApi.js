@@ -21,9 +21,8 @@ export const LoginAuth=async(state)=>{
     const data = await axios.post(`https://filmopedia-server.cyclic.app/server/UserLogin?email=${state.Username}&password=${state.password}`,{
       
         headers:{
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*'
+          'Access-Control-Allow-Headers':'Origin, X-Requested-With, Content-Type, Accept',
+          'Access-Control-Allow-Origin': 'https://chiruvaradani.github.io'
         }
     })
     // console.log(data.data);

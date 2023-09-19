@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FilmopediaDB/static/css/main.d616dfb7.css",
-    "main.js": "/FilmopediaDB/static/js/main.3c7f1521.js",
+    "main.js": "/FilmopediaDB/static/js/main.ccb73015.js",
     "static/css/685.9f8fc13e.chunk.css": "/FilmopediaDB/static/css/685.9f8fc13e.chunk.css",
     "static/js/685.e3d12ea3.chunk.js": "/FilmopediaDB/static/js/685.e3d12ea3.chunk.js",
     "static/css/571.9f8fc13e.chunk.css": "/FilmopediaDB/static/css/571.9f8fc13e.chunk.css",
@@ -13,7 +13,7 @@
     "static/media/revicons.woff": "/FilmopediaDB/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/FilmopediaDB/index.html",
     "main.d616dfb7.css.map": "/FilmopediaDB/static/css/main.d616dfb7.css.map",
-    "main.3c7f1521.js.map": "/FilmopediaDB/static/js/main.3c7f1521.js.map",
+    "main.ccb73015.js.map": "/FilmopediaDB/static/js/main.ccb73015.js.map",
     "685.9f8fc13e.chunk.css.map": "/FilmopediaDB/static/css/685.9f8fc13e.chunk.css.map",
     "685.e3d12ea3.chunk.js.map": "/FilmopediaDB/static/js/685.e3d12ea3.chunk.js.map",
     "571.9f8fc13e.chunk.css.map": "/FilmopediaDB/static/css/571.9f8fc13e.chunk.css.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.d616dfb7.css",
-    "static/js/main.3c7f1521.js"
+    "static/js/main.ccb73015.js"
   ]
 }

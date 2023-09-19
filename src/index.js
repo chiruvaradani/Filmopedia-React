@@ -21,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <Provider store={Store}>
    <SkeletonTheme baseColor="#313131" highlightColor="#525252" >
-    <BrowserRouter basename="/Filmopedia">
+    <BrowserRouter basename="/FilmopediaDB">
       <React.StrictMode>
         <App />
       </React.StrictMode>

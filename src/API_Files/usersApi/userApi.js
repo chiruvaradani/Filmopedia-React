@@ -4,7 +4,7 @@ import axios from "axios"
 export const PostUsers = (data) => {
   console.log("In post Users");
   console.log(data);
-  axios.post('/newUserData', data,{
+  axios.post('https://filmopedia-server.cyclic.app/server/newUserData', data,{
     headers:{
       Accept: 'application/json'
     }
@@ -18,11 +18,11 @@ export const PostUsers = (data) => {
 export const LoginAuth=async(state)=>{
   // console.log(state);
   try{
-    const data = await axios.post(`/UserLogin?email=${state.Username}&password=${state.password}`,{
+    const data = await axios.post(`https://filmopedia-server.cyclic.app/server/UserLogin?email=${state.Username}&password=${state.password}`,{
       
         headers:{
           'Access-Control-Allow-Headers':'Origin, X-Requested-With, Content-Type, Accept',
-          'Access-Control-Allow-Origin': 'https://chiruvaradani.github.io'
+          'Access-Control-Allow-Origin': '*'
         }
     })
     // console.log(data.data);
@@ -39,7 +39,7 @@ export const addtoWishlist = async (id,type) => {
   // console.log(id);
   if(tokenAuth){
     try {
-      const data = await axios.post(`/${type}/${id}`, null, {
+      const data = await axios.post(`https://filmopedia-server.cyclic.app/server/${type}/${id}`, null, {
         headers: {
           Authorization: `Bearer ${tokenAuth}`
         }
@@ -53,7 +53,7 @@ export const addtoWishlist = async (id,type) => {
 export const UpdateImage = async (profile) => {
   const tokenAuth = localStorage.getItem('token');
   try {
-    const data = await axios.put(`/UpdateImage`, {profile:profile}, {
+    const data = await axios.put(`https://filmopedia-server.cyclic.app/server/UpdateImage`, {profile:profile}, {
       headers: {
         Authorization: `Bearer ${tokenAuth}`,
         Accept:'application/json'
@@ -70,7 +70,7 @@ export const RemoveFromWishlist = async (id,type) => {
   // console.log(id);
   // console.log(type);
   try {
-    const data = await axios.put(`/remove/${type}/${id}`, null, {
+    const data = await axios.put(`https://filmopedia-server.cyclic.app/server/remove/${type}/${id}`, null, {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -87,7 +87,7 @@ export const getUserData = async () => {
   try {
 
     // console.log(token);
-    const response = await axios.get('/UserData', {
+    const response = await axios.get('https://filmopedia-server.cyclic.app/server/UserData', {
       headers: {
         Authorization: `bearer ${tokenAuth}`,
       },

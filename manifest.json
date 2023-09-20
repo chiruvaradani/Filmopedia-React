@@ -1,11 +1,11 @@
 {
   "name": "Filmopedia-The Movies DB",
   "short_name": "Filmopedia",
-  "theme_color": "#00000",
-  "background_color": "#00000",
+  "theme_color": "#000",
+  "background_color": "#000",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "https://chiruvaradani.github.io/FilmopediaDB/",
+  "start_url": "https://chiruvaradani.github.io/FilmopediaDB/",
   "icons": [
     {
       "src": "maskable_icon.png",

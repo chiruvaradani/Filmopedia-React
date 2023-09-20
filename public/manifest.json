@@ -1,25 +1,37 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Filmopedia-The Movies DB",
+  "short_name": "Filmopedia",
+  "theme_color": "#00000",
+  "background_color": "#00000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "logo192.jpeg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "logo256.jpeg",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo384.jpeg",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "logo512.jpeg",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }

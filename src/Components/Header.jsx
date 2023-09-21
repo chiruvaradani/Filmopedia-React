@@ -51,7 +51,7 @@ const Header = () => {
           <nav className={`navbar navbarMain navbar-expand-lg navbar-dark position-fixed top-0 col-12`} style={{ zIndex: 100, backgroundColor: '#000' }} >
             <div className="container-fluid">
               <Link className="navbar-brand" to={'/'}>
-                <img src={Logo} style={{ width: '25px', height: '25px', borderRadius: '50%' }} alt="" />
+                <img src={require('../assets/Vector_Logo.png')} style={{ width: '25px', height: '25px', borderRadius: '50%' }} alt="" />
                 &nbsp;
                 Filmopedia
               </Link>
@@ -119,7 +119,7 @@ const Header = () => {
           <nav className="navbar position  mx-1 position-fixed  top-0 col-12" style={{ backgroundColor: 'none',zIndex:1 }}>
             <div className="container"> 
               <Link className="navbar-brand  mx-1" to={'/'} >
-                <img src={Logo} className='rounded-5' alt="Bootstrap" width="30" height="28" />
+                <img src={require('../assets/Vector_Logo.png')} className='rounded-5' alt="Bootstrap" width="30" height="28" />
                 <span className='pt-3 fs-4 text-light mx-2 py-3'>Filmopedia</span>
               </Link>
             </div>

@@ -4,32 +4,27 @@
   "theme_color": "#000",
   "background_color": "#000",
   "display": "standalone",
-  "scope": "https://chiruvaradani.github.io/FilmopediaDB/",
-  "start_url": "https://chiruvaradani.github.io/FilmopediaDB/",
+  "scope": "http://localhost:3000/FilmopediaDB/",
+  "start_url": "http://localhost:3000/FilmopediaDB/",
   "icons": [
     {
-      "src": "maskable_icon.png",
+      "src": "maskable_icon_x192.png",
       "sizes": "196x196",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "logo192.jpeg",
+      "src": "maskable_icon_x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo256.jpeg",
-      "type": "image/png",
-      "sizes": "256x256"
-    },
-    {
-      "src": "logo384.jpeg",
+      "src": "maskable_icon_x384.png",
       "type": "image/png",
       "sizes": "384x384"
     },
     {
-      "src": "logo512.jpeg",
+      "src": "maskable_icon_x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

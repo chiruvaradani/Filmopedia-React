@@ -4,8 +4,8 @@
   "theme_color": "#000",
   "background_color": "#000",
   "display": "standalone",
-  "scope": "http://localhost:3000/FilmopediaDB/",
-  "start_url": "http://localhost:3000/FilmopediaDB/",
+  "scope": "https://chiruvaradani.github.io/FilmopediaDB/",
+  "start_url": "https://chiruvaradani.github.io/FilmopediaDB/",
   "icons": [
     {
       "src": "maskable_icon_x192.png",

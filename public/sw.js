@@ -1,13 +1,14 @@
-const CACHE_NAME = 'Version-1';
-const UrlToCache = ['index.html', 'offline.html', './Vector_Logo.png', './icons8-wi-fi-disconnected-94.png', './VUDU-HDX-Weekend-Sale-Friday-the-13th.jpg'];
+const CACHE_NAME = 'Version-1'
+const UrlToCache = ['offline.html','./Vector_Logo.png','./icons8-wi-fi-disconnected-94.png','./VUDU-HDX-Weekend-Sale-Friday-the-13th.jpg']
 
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(UrlToCache);
-    })
-  );
-});
+
+self.addEventListener('install',(event)=>{
+    event.waitUntil(caches.open(CACHE_NAME).then(res=>{
+        res.addAll(UrlToCache)
+    }))
+})
+
+
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
@@ -24,8 +25,6 @@ self.addEventListener('fetch', (event) => {
       })
   );
 });
-
-  
 
 // self.addEventListener('activate',(event)=>{
 //  const CacheswhiteList =[]
